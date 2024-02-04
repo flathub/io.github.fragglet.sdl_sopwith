@@ -33,7 +33,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>The player dropping a bomb</caption>
-      <image type="source" width="3200" height="1800">https://raw.githubusercontent.com/wjt/flathub/a70639daa7ba79dc26bc2cc7a55099c73e1fdf52/screenshots/1.png</image>
+      <image width="3200" height="1800">https://raw.githubusercontent.com/wjt/flathub/a70639daa7ba79dc26bc2cc7a55099c73e1fdf52/screenshots/1.png</image>
     </screenshot>
   </screenshots>
   <releases>
