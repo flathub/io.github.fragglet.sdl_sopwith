@@ -37,7 +37,22 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2.4.0" date="2024-02-03"/>
+    <release version="2.4.0" date="2024-02-03">
+      <url>https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.4.0</url>
+      <description>
+        <p>It is now possible to make and load custom levels (there is no proper level editor available yet though).</p>
+        <p>There are now a number of alternative palettes that can be used that simulate different CGA palettes and old monitors (thanks techknight).</p>
+        <p>There are now hotkeys to end or restart the current game (thanks techknight).</p>
+        <p>There is now a -p command line option to specify TCP port number.</p>
+        <p>Sound is now oversampled to reduce sound aliasing (thanks @kmill).</p>
+        <p>Starting level is now synchronized between players at multiplayer start.</p>
+        <p>A bug was fixed with the keybindings menu not working (thanks ranguli, NY00123)</p>
+        <p>A missing include was added to fix build on Alpine Linux (thanks John Gebbie)</p>
+        <p>An input bug was fixed where a backspace would leave some visual corruption, and the cursor now blinks.</p>
+        <p>A bug was fixed where the same medal could be awarded twice.</p>
+        <p>Timing of music on the title screen was fixed (thanks @NY00123).</p>
+      </description>
+    </release>
     <release version="2.3.0" date="2023-05-20">
       <url>https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.3.0</url>
       <description>
