@@ -26,8 +26,8 @@
                         "url-template": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-$version/sdl-sopwith-$version.tar.gz"
                     },
                     "type": "archive",
-                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.3.0/sdl-sopwith-2.3.0.tar.gz",
-                    "sha256": "3a703d8b2bbc1a5a6e1a669d90b87957909f1eac8b4dfc1de34705ac57cd9849"
+                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.4.0/sdl-sopwith-2.4.0.tar.gz",
+                    "sha256": "dd5a4479794777fd1c0e4a837438303f23800a277337c9c7940232c437f11a4d"
                 }
             ]
         },
