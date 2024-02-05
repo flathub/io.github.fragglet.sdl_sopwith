@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=SDL Sopwith
-Comment=The classic biplane shoot ‘em-up
-Exec=sopwith
-Icon=io.github.fragglet.sdl_sopwith
