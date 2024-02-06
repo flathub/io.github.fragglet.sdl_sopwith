@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>io.github.fragglet.sdl_sopwith</id>
-  <name>SDL Sopwith</name>
-  <summary>The classic biplane shoot ‘em-up</summary>
+  <name>Sopwith</name>
+  <developer_name>Dave L. Clark</developer_name>
+  <developer>
+    <name>Dave L. Clark</name>
+  </developer>
+  <developer id="fragglet.github.io">
+    <name>Simon Howard</name>
+  </developer>
+  <summary>Classic biplane shoot-'em up</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <description>
     <p>
-      This is a port of the classic biplane shoot ‘em-up “Sopwith” to run on modern computers and operating systems. It is named “SDL Sopwith” as it uses the LibSDL cross-platform library.
+      Sopwith is a modern port of the classic 1980s shoot 'em up game of the
+      same name. The game has a World War I aviation theme. The object of
+      Sopwith is to destroy all enemy targets with a somewhat limited airforce.
+    </p>
+    <p>
+      It can be played both in single player and multiplayer mode over a TCP/IP network.
     </p>
   </description>
   <categories>
@@ -21,15 +33,32 @@
   <url type="vcs-browser">https://github.com/fragglet/sdl-sopwith</url>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-fantasy">moderate</content_attribute>
+    <content_attribute id="social-chat">mild</content_attribute>
   </content_rating>
   <launchable type="desktop-id">io.github.fragglet.sdl_sopwith.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <caption>The player dropping a bomb</caption>
-      <image type="source" width="3200" height="1800">https://raw.githubusercontent.com/wjt/flathub/a70639daa7ba79dc26bc2cc7a55099c73e1fdf52/screenshots/1.png</image>
+      <image width="3200" height="1800">https://raw.githubusercontent.com/wjt/flathub/a70639daa7ba79dc26bc2cc7a55099c73e1fdf52/screenshots/1.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.0" date="2024-02-03">
+      <url>https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.4.0</url>
+      <description>
+        <p>It is now possible to make and load custom levels (there is no proper level editor available yet though).</p>
+        <p>There are now a number of alternative palettes that can be used that simulate different CGA palettes and old monitors (thanks techknight).</p>
+        <p>There are now hotkeys to end or restart the current game (thanks techknight).</p>
+        <p>There is now a -p command line option to specify TCP port number.</p>
+        <p>Sound is now oversampled to reduce sound aliasing (thanks @kmill).</p>
+        <p>Starting level is now synchronized between players at multiplayer start.</p>
+        <p>A bug was fixed with the keybindings menu not working (thanks ranguli, NY00123)</p>
+        <p>A missing include was added to fix build on Alpine Linux (thanks John Gebbie)</p>
+        <p>An input bug was fixed where a backspace would leave some visual corruption, and the cursor now blinks.</p>
+        <p>A bug was fixed where the same medal could be awarded twice.</p>
+        <p>Timing of music on the title screen was fixed (thanks @NY00123).</p>
+      </description>
+    </release>
     <release version="2.3.0" date="2023-05-20">
       <url>https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.3.0</url>
       <description>

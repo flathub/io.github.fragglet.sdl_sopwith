@@ -8,16 +8,16 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--share=ipc",
+        "--share=network",
         "--device=dri",
         "--socket=pulseaudio"
     ],
+    "rename-desktop-file": "sopwith.desktop",
+    "rename-icon": "sopwith",
     "modules": [
         "shared-modules/SDL2/SDL2-with-libdecor.json",
         {
             "name": "sdl-sopwith",
-            "post-install": [
-                "install -m 644 -DT icon.png /app/share/icons/hicolor/64x64/apps/io.github.fragglet.sdl-sopwith.png"
-            ],
             "sources": [
                 {
                     "x-checker-data": {
@@ -26,8 +26,8 @@
                         "url-template": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-$version/sdl-sopwith-$version.tar.gz"
                     },
                     "type": "archive",
-                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.3.0/sdl-sopwith-2.3.0.tar.gz",
-                    "sha256": "3a703d8b2bbc1a5a6e1a669d90b87957909f1eac8b4dfc1de34705ac57cd9849"
+                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.4.0/sdl-sopwith-2.4.0.tar.gz",
+                    "sha256": "dd5a4479794777fd1c0e4a837438303f23800a277337c9c7940232c437f11a4d"
                 }
             ]
         },
@@ -35,22 +35,12 @@
             "name": "xdg-stuff",
             "buildsystem": "simple",
             "build-commands": [
-                "install -m 644 -Dt /app/share/metainfo/ io.github.fragglet.sdl_sopwith.metainfo.xml",
-                "install -m 644 -Dt /app/share/applications io.github.fragglet.sdl_sopwith.desktop",
-                "install -m 644 -DT icon-128.png /app/share/icons/hicolor/128x128/apps/io.github.fragglet.sdl_sopwith.png"
+                "install -m 644 -Dt /app/share/metainfo/ io.github.fragglet.sdl_sopwith.metainfo.xml"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "path": "io.github.fragglet.sdl_sopwith.desktop"
-                },
-                {
-                    "type": "file",
                     "path": "io.github.fragglet.sdl_sopwith.metainfo.xml"
-                },
-                {
-                    "type": "file",
-                    "path": "icon-128.png"
                 }
             ]
         }
