@@ -18,6 +18,9 @@
         "shared-modules/SDL2/SDL2-with-libdecor.json",
         {
             "name": "sdl-sopwith",
+            "post-install": [
+                "install -D -t /app/share/maps maps/*"
+            ],
             "sources": [
                 {
                     "x-checker-data": {
