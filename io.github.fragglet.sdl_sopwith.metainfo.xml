@@ -3,7 +3,7 @@
   <id>io.github.fragglet.sdl_sopwith</id>
   <name>Sopwith</name>
   <developer_name>Dave L. Clark</developer_name>
-  <developer>
+  <developer id="com.davidlclark">
     <name>Dave L. Clark</name>
   </developer>
   <summary>Classic biplane shoot-'em up</summary>
