@@ -3,11 +3,8 @@
   <id>io.github.fragglet.sdl_sopwith</id>
   <name>Sopwith</name>
   <developer_name>Dave L. Clark</developer_name>
-  <developer>
+  <developer id="com.davidlclark">
     <name>Dave L. Clark</name>
-  </developer>
-  <developer id="fragglet.github.io">
-    <name>Simon Howard</name>
   </developer>
   <summary>Classic biplane shoot-'em up</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -43,6 +40,20 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.5.0" date="2024-04-19">
+      <url>https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.5.0</url>
+      <description>
+        <p>there is still no editor for making custom levels, but a python library has been added for programmatically generating levels. an example level has been included, the first custom level!</p>
+        <p>objects in custom levels can now be arbitrarily mirrored and rotated.</p>
+        <p>The numeric keypad enter key can now be used to switch into fullscreen mode, and also when entering a hostname (thanks TechKnight).</p>
+        <p>A long-standing bug was fixed where the computer planes would try to take off by flying straight up and then immediately stalling.</p>
+        <p>The score is no longer reset between levels (this was a bug).</p>
+        <p>At end of level, the remaining planes now "tick down" properly.</p>
+        <p>A bug was fixed where the app icon was shown as a black silhouette.</p>
+        <p>The manual page now documents the dashboard layout.</p>
+        <p>The score will no longer be drawn over the medals for very large values.</p>
+      </description>
+    </release>
     <release version="2.4.0" date="2024-02-03">
       <url>https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.4.0</url>
       <description>

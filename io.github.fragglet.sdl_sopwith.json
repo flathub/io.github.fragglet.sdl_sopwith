@@ -18,6 +18,9 @@
         "shared-modules/SDL2/SDL2-with-libdecor.json",
         {
             "name": "sdl-sopwith",
+            "post-install": [
+                "install -D -t /app/share/maps maps/*"
+            ],
             "sources": [
                 {
                     "x-checker-data": {
@@ -26,8 +29,8 @@
                         "url-template": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-$version/sdl-sopwith-$version.tar.gz"
                     },
                     "type": "archive",
-                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.4.0/sdl-sopwith-2.4.0.tar.gz",
-                    "sha256": "dd5a4479794777fd1c0e4a837438303f23800a277337c9c7940232c437f11a4d"
+                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.5.0/sdl-sopwith-2.5.0.tar.gz",
+                    "sha256": "afef3efb49994aec6a37185bde97af46d7231a7bf18dfbc6d3c87251f3f9dd46"
                 }
             ]
         },
