@@ -6,9 +6,6 @@
   <developer>
     <name>Dave L. Clark</name>
   </developer>
-  <developer id="fragglet.github.io">
-    <name>Simon Howard</name>
-  </developer>
   <summary>Classic biplane shoot-'em up</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
