@@ -32,19 +32,6 @@
                     "sha256": "c6e4482457d2e0a45d406253c8f2878b92f9f20a6ec45e70ef15de8a7ad865f2"
                 }
             ]
-        },
-        {
-            "name": "xdg-stuff",
-            "buildsystem": "simple",
-            "build-commands": [
-                "install -m 644 -Dt /app/share/metainfo/ io.github.fragglet.sdl_sopwith.metainfo.xml"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "path": "io.github.fragglet.sdl_sopwith.metainfo.xml"
-                }
-            ]
         }
     ]
 }
