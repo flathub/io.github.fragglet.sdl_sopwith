@@ -23,9 +23,11 @@
             "sources": [
                 {
                     "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8608,
-                        "url-template": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-$version/sdl-sopwith-$version.tar.gz"
+                        "type": "json",
+                        "url": "https://api.github.com/repos/fragglet/sdl-sopwith/releases/latest",
+                        "version-query": ".tag_name | sub(\"^sdl-sopwith-\"; \"\")",
+                        "url-query": ".assets[] | select(.name==\"sdl-sopwith-\" + $version + \".tar.gz\") | .browser_download_url",
+                        "timestamp-query": ".published_at"
                     },
                     "type": "archive",
                     "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.6.0/sdl-sopwith-2.6.0.tar.gz",
