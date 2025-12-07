@@ -30,8 +30,8 @@
                         "timestamp-query": ".published_at"
                     },
                     "type": "archive",
-                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.8.0/sdl-sopwith-2.8.0.tar.gz",
-                    "sha256": "fa7f30ac43567e9b95535f106ee6cb53a0bea89d5cf6c3e70f9529f1ada24bc6"
+                    "url": "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0.tar.gz",
+                    "sha256": "93550d0cfddbdf19ef05c54e0b455999ba63da87f66d0cc371c89612ac04a0bb"
                 }
             ]
         }
